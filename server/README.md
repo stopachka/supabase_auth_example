@@ -1,26 +1,6 @@
-# Supabase Auth Example 
-
-How do you integrate supabase auth with Instant? This repo gives you an example to do just that! 
-
-To run everything: 
+# Express Server
 
 ```
-cd server
 yarn 
 yarn dev
 ```
-
-```
-cd frontend
-yarn 
-yarn dev
-```
-
-There's two files to understand: 
-
-1. server/index.ts 
-   1. This creates an endpoint that generates instant tokens
-2. frontend/src/App.tsx
-   1. This handles sync between supabase and Instant!
-
-
