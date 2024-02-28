@@ -151,6 +151,7 @@ function AuthorizedApp() {
     <div className="h-full flex items-center justify-center">
       <div className="space-y-4">
         <div className="space-y-2">
+          <h1 className="font-bold text-lg">Instant + Supabase</h1>
           <h3 className="font-bold text-lg">Files (open another tab to see changes live)</h3>
           <ul className="ml-2 list-disc">
             {data.files.map((file: any) => (
